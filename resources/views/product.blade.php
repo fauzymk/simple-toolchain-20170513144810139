@@ -106,292 +106,451 @@
                         </form>
                             </div><!-- table-responsive -->
 
-                             <div class="col-md-7" >
-                              <div class="col-xs-6 col-sm-4" id="collapse1">
-                              <div class="thmb">
-                                <div class="ckbox ckbox-primary" align="center">
-                                  <input type="checkbox" id="check1" value="1" />
-                                  <label for="check1"></label>
-                                    <div class="thmb-prev">
-                                      <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                    </div>
-                                </div>
-                                <div align="center">
-                                  <h4 class="city-name-h4">KOD Platform</h4>
-                                  <h5 class="city-name-h4">Based Price Usage Details</h5>
-                                 <a href="order.html"><button class="btn btn-primary btn-primary-cityliving">Subscribe</button></a>
-                                </div>
-                              </div><!-- thmb -->
+                             <div class="col-md-7">
+
+                             <div id="collapse1">
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check1" value="1" />
+                                              <label for="check1"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                            </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">KOD Platform</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
                             </div>
                         
 
 
                         <div id="collapse2">
-                          <div class="col-xs-6 col-sm-4" >
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check2" value="1" />
-                              <label for="check2"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">City Living</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check3" value="1" />
-                              <label for="check3"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Citizen Request</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check4" value="1" />
-                              <label for="check4"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Command Center</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check5" value="1" />
-                              <label for="check5"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Social Media</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
+
+                           <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check2" value="1" />
+                                              <label for="check2"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                            </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">City Living</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check3" value="1" />
+                                              <label for="check3"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                            </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Citizen Request</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check4" value="1" />
+                                              <label for="check4"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                            </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Command Center</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check5" value="1" />
+                                              <label for="check5"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                            </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Social Media</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
                         </div>
 
                         <div id="collapse3">
-                          <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check6" value="1" />
-                              <label for="check6"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Local Replica</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check7" value="1" />
-                              <label for="check7"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">/CCTV</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check8" value="1" />
-                              <label for="check8"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Command Center</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check9" value="1" />
-                              <label for="check9"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">GPS</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
+
+                        <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check6" value="1" />
+                                              <label for="check6"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Local Replica</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check7" value="1" />
+                                              <label for="check7"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">CCTV</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check8" value="1" />
+                                              <label for="check8"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Command Center</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check9" value="1" />
+                                              <label for="check9"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">GPS</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
                         </div>
 
                         <div id="collapse4">
-                          <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check10" value="1" />
-                              <label for="check10"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Configuration</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check11" value="1" />
-                              <label for="check11"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Data Content Loading</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check12" value="1" />
-                              <label for="check12"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Traning</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check13" value="1" />
-                              <label for="check13"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Custom Development</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <button class="btn btn-primary btn-primary-cityliving">Subscribe</button>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
+
+                          <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check10" value="1" />
+                                              <label for="check10"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Configuration</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check11" value="1" />
+                                              <label for="check11"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Data Content Loading</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check12" value="1" />
+                                              <label for="check12"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Traning</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check13" value="1" />
+                                              <label for="check13"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Custom Development</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
                         </div>
 
                         <div id="collapse5">
-                          <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check15" value="1" />
-                              <label for="check15"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Help Desk</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <a href="order.html"><button class="btn btn-primary btn-primary-cityliving">Subscribe</button></a>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check16" value="1" />
-                              <label for="check16"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Apps Lv 2 & 3 Support</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <a href="order.html"><button class="btn btn-primary btn-primary-cityliving">Subscribe</button></a>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check17" value="1" />
-                              <label for="check17"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Data/Content Management</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <a href="order.html"><button class="btn btn-primary btn-primary-cityliving">Subscribe</button></a>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
-                        <div class="col-xs-6 col-sm-4">
-                          <div class="thmb">
-                            <div class="ckbox ckbox-primary" align="center">
-                              <input type="checkbox" id="check18" value="1" />
-                              <label for="check18"></label>
-                                <div class="thmb-prev">
-                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                                </div>
-                            </div>
-                            <div align="center">
-                              <h4 class="city-name-h4">Infra Support & Maintanace</h4>
-                              <h5 class="city-name-h4">Based Price Usage Details</h5>
-                              <a href="order.html"><button class="btn btn-primary btn-primary-cityliving">Subscribe</button></a>
-                            </div>
-                          </div><!-- thmb -->
-                        </div>
+
+                           <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check14" value="1" />
+                                              <label for="check14"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Help Desk</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check15" value="1" />
+                                              <label for="check15"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Apps Lv 2 & 3 Support</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check16" value="1" />
+                                              <label for="check16"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Data/Content Management</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+
+                               <div class="col-sm-5">
+                                  <div class="panel panel-prd panel-stat ">
+                                    <div class="panel-heading">
+                                      <div class="stat">
+                                        <div class="row">
+                                          <div class="thmb">
+                                            <div class="ckbox ckbox-primary" align="center">
+                                              <input type="checkbox" id="check17" value="1" />
+                                              <label for="check17"></label>
+                                                <div class="thmb-prev">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
+                                                </div>
+                                             </div>
+                                            <div align="center">
+                                              <h4 class="city-name-h4">Infra Support & Maintanace</h4>
+                                              <h5 class="city-name-h4">Based Price Usage Details</h5>
+                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                            </div>
+                                          </div><!-- thmb -->
+                                        </div><!-- row -->
+                                      </div><!-- stat -->
+                                    </div><!-- panel-heading -->
+                                  </div><!-- panel -->
+                              </div>
+                        
                         </div>
 <!--
                         <div id="collapse6" style="display:none">

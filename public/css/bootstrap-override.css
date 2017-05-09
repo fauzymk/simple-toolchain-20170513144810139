@@ -75,6 +75,12 @@ h4, .h4 {
    padding-right: 10px;
 }
 
+.col-prd{
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+
 .form-group::after {
    clear: both;
    display: block;
@@ -631,6 +637,10 @@ h4, .h4 {
 .panel-dark .panel-heading {
    background-color: #0088a0;
    opacity: 0.8;
+}
+
+.panel-prd .panel-heading {
+   background-color: #0027bf;
 }
 
 .panel-btns a {
