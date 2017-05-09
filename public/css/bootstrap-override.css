@@ -616,18 +616,15 @@ h4, .h4 {
 }
 
 .panel-success .panel-heading {
-   background-color: #1dc420;
-   opacity: 0.8;
+   background-color: #1dc420 !important;
 }
 
 .panel-warning .panel-heading {
-   background-color: #93a000;
-   opacity: 0.8;
+   background-color: #93a000 !important;
 }
 
 .panel-danger .panel-heading {
-   background-color: #00a07f;
-   opacity: 0.8;
+   background-color: #00a07f !important;
 }
 
 .panel-info .panel-heading {
@@ -635,8 +632,7 @@ h4, .h4 {
 }
 
 .panel-dark .panel-heading {
-   background-color: #0088a0;
-   opacity: 0.8;
+   background-color: #0088a0 !important;
 }
 
 .panel-prd .panel-heading {

@@ -80,6 +80,11 @@
     background-color: rgba(0, 0, 0, 0.35) !important;
     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15) !important;
 }
+.panel-default2 {
+    background-color: white;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 20px 5px;
+}
 .mainpanel-container {
     padding-left: 240px;
     position: fixed;
@@ -87,6 +92,17 @@
     height: 100%;
     overflow-y: auto;
     background: radial-gradient(ellipse at center, rgba(1,28,122,1) 0%, rgba(8,5,48,1) 100%);
+}
+.control-label {
+    text-align: left !important;
+    color: #908d8d;
+}
+label {
+    color: #908d8d;
+}
+.form-horizontal .form-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 /****************************************/
 
@@ -150,7 +166,6 @@ strong {
 
 
 .headerbar {
-    border-left: 1px solid #05061B;
     background: transparent;
     height: 70px;
 }
@@ -480,6 +495,8 @@ strong {
     left: 0;
     height: 100%;
     z-index: 100;
+    background-color: rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .sticky-leftpanel {
@@ -950,7 +967,6 @@ p {
 .panel-stat .stat {
     color: #e4e4e4;
     max-width: 250px;
-    height: 90px
 }
 
 .panel-stat .stat img {
@@ -4752,7 +4768,9 @@ div.error label.error:before {
 
 .fontcolor-city{
     color: #f4f4f4;
-    font-size: 42px;
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .

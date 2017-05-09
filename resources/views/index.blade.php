@@ -44,13 +44,10 @@
                 </div><!-- headerbar -->
 
                 <div class="contentpanel">
-                    <div class="col-sm-12">
-                          <div class="panel panel-info">
-                              
+                    <div class="row">                              
                               <div class="col-xs-12" align="center">
-                              <h1 class="fontcolor-city panel-heading"> <img src="images/img/bogor.png" style="height: 75px; padding-right: 5px; padding-left: 5px;"> BOGOR</h1>
+                                <h1 class="fontcolor-city"> <img src="images/img/bogor.png" style="height: 100px; padding-right: 5px; padding-left: 5px;"> BOGOR</h1>
                               </div>
-                          </div><!-- panel -->
                         <div class="col-sm-6 col-md-3" >
                           <div class="panel panel-danger panel-stat" >
                             <div class="panel-heading" >
@@ -58,7 +55,7 @@
                               <div class="stat" >
                                 <div class="row">
                                   <div class="col-xs-4" style="color: #f2f2f2">
-                                    <i class="fa fa-building fa-lg" style="font-size: 68px;"></i>
+                                    <i class="fa fa-building fa-lg" style="font-size: 72px;"></i>
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label"> City Type</small>
@@ -79,11 +76,11 @@
                               <div class="stat">
                                 <div class="row">
                                   <div class="col-xs-4" style="color: #f2f2f2">
-                                    <i class="fa fa-cubes " style="font-size: 55px;"></i>
+                                    <i class="fa fa-cube fa-lg" style="font-size: 72px;"></i>
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label"> Package</small>
-                                    <h3 class="fontcolor">Based Package</h3>
+                                    <h3 class="fontcolor">Based</h3>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -121,7 +118,7 @@
                               <div class="stat">
                                 <div class="row">
                                   <div class="col-xs-4" style="color: #f2f2f2;">
-                                    <i class="fa fa-tachometer fa-lg" style="font-size: 72px; opacity: 0.7;"></i>
+                                    <i class="fa fa-tachometer fa-lg" style="font-size: 72px;"></i>
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label">Usage</small>
@@ -135,8 +132,8 @@
                           </div><!-- panel -->
                         </div><!-- col-sm-6 -->
                     </div><!-- row -->
-                    <p>&nbsp;</p>
-                  <div class="row" style="border-top: 2px solid rgba(196, 196, 196, 0.3); padding-top: 50px;">
+                
+                  <div class="row">
                     <div class="col-sm-6 col-md-4">
                       <div class="panel panel-default">
                         <div class="panel-body" align="center">
