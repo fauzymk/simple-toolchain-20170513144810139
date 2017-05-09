@@ -15,8 +15,8 @@
         <section>
             @include('sidebar.sidebar')
 
-            <div class="mainpanel">
-
+            <div class="mainpanel-container">
+              <div class="mainpanel">
                 <div class="headerbar">
                     <div class="pageheader" style="display: inline-block;"><h2> Products & Services Pricing Plan </h2>
                     </div>
@@ -44,8 +44,7 @@
 
                 <div class="contentpanel">
                     <div class="panel panel-default">
-                        <div class="panel-body">
-                           <div class="col-md-5">
+                           <div class="col-md-5 panel-body">
                             <div class="table-responsive">
                             <table class="table table-hidaction table-hover mb30">
                               <thead>
@@ -59,35 +58,35 @@
                                 <tr >
                                   <td>Platform</td>
                                   <td>Recuring</td>
-                                  <td class="table-action-hide">
+                                  <td class="table-action">
                                     <a><button class="btn btn-primary btn-primary-cityliving nav-toggle" id="btn1">Select</button></a>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td>Applications</td>
                                   <td>Recuring</td>
-                                  <td class="table-action-hide">
+                                  <td class="table-action">
                                     <a><button class="btn btn-primary btn-primary-cityliving nav-toggle" id="btn2">Select</button></a>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td>Infrastructure</td>
                                   <td>One Time</td>
-                                  <td class="table-action-hide">
+                                  <td class="table-action">
                                     <a><button class="btn btn-primary btn-primary-cityliving nav-toggle" id="btn3">Select</button></a>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td>KOD Service</td>
                                   <td>One Time</td>
-                                  <td class="table-action-hide">
+                                  <td class="table-action">
                                     <a><button class="btn btn-primary btn-primary-cityliving nav-toggle" id="btn4">Select</button></a>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td>KOD Support</td>
                                   <td>Recuring</td>
-                                  <td class="table-action-hide">
+                                  <td class="table-action">
                                    <a><button class="btn btn-primary btn-primary-cityliving nav-toggle" id="btn5">Select</button></a>
                                   </td>
                                 </tr>
@@ -103,8 +102,8 @@
                               </tbody>
                             </table>
                           </div>
-                        </form>
                             </div><!-- table-responsive -->
+                            </div>
 
                              <div class="col-md-7">
 
@@ -125,7 +124,7 @@
                                             <div align="center">
                                               <h4 class="city-name-h4">KOD Platform</h4>
                                               <h5 class="city-name-h4">Based Price Usage Details</h5>
-                                              <button class="btn btn-primary btn-primary-product">Subscribe</button>
+                                              <a href="order" class="btn btn-primary btn-primary-product">Subscribe</a>
                                             </div>
                                           </div><!-- thmb -->
                                         </div><!-- row -->
@@ -590,10 +589,10 @@
 
 
                           </div><!-- col-md-6 -->
-                        </div><!-- panel-body -->
                     </div><!-- panel -->
                 </div><!-- contentpanel -->
-            </div><!-- mainpanel -->
+                </div><!-- mainpanel -->
+            </div><!-- mainpanel-container -->
 
         </section>
 

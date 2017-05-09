@@ -15,8 +15,8 @@
         <section>
             @include('sidebar.sidebar')
 
-            <div class="mainpanel">
-
+            <div class="mainpanel-container">
+              <div class="mainpanel">
                 <div class="headerbar">
                     <div class="pageheader" style="display: inline-block;"><h2> Order History </h2>
                     </div>
@@ -255,6 +255,7 @@
                     </div><!-- panel -->
                 </div><!-- contentpanel -->
             </div><!-- mainpanel -->
+          </div>
 
         </section>
 

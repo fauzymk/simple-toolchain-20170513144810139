@@ -16,8 +16,9 @@
 
             @include('sidebar.sidebar')
 
-            <div class="mainpanel">
 
+            <div class="mainpanel-container">
+              <div class="mainpanel">
                 <div class="headerbar">
                     <div class="pageheader" style="display: inline-block;"><h2> Dashboard</h2></div>
 
@@ -61,7 +62,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label"> City Type</small>
-                                    <h1 class="fontcolor">Medium</h1>
+                                    <h2 class="fontcolor">Medium</h2>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -82,7 +83,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label"> Package</small>
-                                    <h1 class="fontcolor">Based Package</h1>
+                                    <h3 class="fontcolor">Based Package</h3>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -103,7 +104,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label">Account Status</small>
-                                    <h1 class="fontcolor">Active</h1>
+                                    <h2 class="fontcolor">Active</h2>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -124,7 +125,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label">Usage</small>
-                                    <h1 class="fontcolor">80%</h1>
+                                    <h2 class="fontcolor">80%</h2>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -135,7 +136,7 @@
                         </div><!-- col-sm-6 -->
                     </div><!-- row -->
                     <p>&nbsp;</p>
-                  <div class="row" style="border-top: 2px solid #c4c4c4; padding-top: 50px;">
+                  <div class="row" style="border-top: 2px solid rgba(196, 196, 196, 0.3); padding-top: 50px;">
                     <div class="col-sm-6 col-md-4">
                       <div class="panel panel-default">
                         <div class="panel-body" align="center">
@@ -181,8 +182,8 @@
                     </div><!-- col-sm-6 -->
                   </div>
                 </div><!-- contentpanel -->
-
-            </div><!-- mainpanel -->
+                </div><!-- mainpanel -->
+            </div><!-- mainpanel-container -->
 
         </section>
 

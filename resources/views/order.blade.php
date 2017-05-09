@@ -16,8 +16,8 @@
 
             @include('sidebar.sidebar')
 
-            <div class="mainpanel">
-
+            <div class="mainpanel-container">
+              <div class="mainpanel">
                 <div class="headerbar">
                     <div class="pageheader" style="display: inline-block;"><h2>Order Form</h2>
                     </div>
@@ -49,14 +49,22 @@
                       <div class="panel panel-default">
 
                         <div class="panel-heading" align="center" >
-                        <div class="col-sm-1"> <a href="product.html"><button  class="btn btn-primary btn-primary-cityliving "> Back</button></a></div>
+                        <div class="col-sm-1"> <a href="product" class="btn btn-primary btn-primary-cityliving "> Back</a></div>
                           <div class="col-sm-10 panel-title">
                           <h5 class="panel-title">Subscription Options</h5>
                           </div>
 
                         </div>
                         <div class="panel-body panel-body-nopadding" align="center" >
-                            <div class="row">
+                          <div class="row">
+                            <div class="col-md-6">
+                              
+                            </div>
+                            <div class="col-md-6">
+                              
+                            </div>
+                          </div>
+                            <!-- <div class="row">
                           <div class="col-md-5">
                             <div class="panel panel-default">
                               <div class="panel-body">
@@ -178,12 +186,13 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                       </div>
                     </form>
                   </div>
                 </div><!-- contentpanel -->
             </div><!-- mainpanel -->
+          </div><!-- mainpanel-container -->
 
         </section>
 
