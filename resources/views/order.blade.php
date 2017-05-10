@@ -89,7 +89,11 @@
                                     <div class="form-group">
                                       <label for="price" class="col-md-4 control-label">Based Price</label>
                                       <div class="col-md-8">
-                                        <input type="text" name="price" value="50" class="form-control">
+                                        <div class="input-group">
+                                          <span class="input-group-addon">$</span>
+                                          <input type="text" name="price" value="50" class="form-control">
+                                          <span class="input-group-addon">.00</span>
+                                        </div>
                                       </div>
                                     </div>
                                     <div class="form-group">
@@ -141,8 +145,9 @@
                                     <div class="form-group">
                                       <div class="col-md-4"></div>
                                       <div class="col-md-8">
-                                        <div class="checkbox block">
-                                          <label><input type="checkbox" name="alert"> Do you wish to recieve email alert?</label>
+                                        <div class="ckbox ckbox-default">
+                                          <input type="checkbox" name="alert" id="checkboxDefault">
+                                          <label for="checkboxDefault">Do you wish to recieve email alert?</label>
                                         </div>
                                       </div>
                                     </div>

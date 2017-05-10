@@ -29,6 +29,14 @@
 
         <!-- <h5 class="sidebartitle">Navigation</h5> -->
         <ul class="nav nav-pills nav-stacked nav-bracket">
+            <li>
+                <form class="form-group">
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-addon"><i class="fa fa-search" style="margin-right: 0"></i></span>
+                        <input type="text" placeholder="Search..." name="" class="form-control">
+                    </div>
+                </form>
+            </li>
             <li id="home"><a href="home"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
             <li id="product"><a href="product"><i class="fa fa-book"></i> <span>Products Catalog</span></a></li>
             <li id="order_history"><a href="order_history"><i class="fa fa-hand-o-right"></i> <span>Orders</span></a></li>
