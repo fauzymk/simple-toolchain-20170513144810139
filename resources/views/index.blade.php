@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @include('includes.header')
+        @include('includes.header', ['title' => 'Dashboard'])
     </head>
 
     <body>
@@ -14,34 +14,13 @@
 
         <section>
 
-            @include('sidebar.sidebar')
+            @include('navigation.sidebar')
 
 
             <div class="mainpanel-container">
               <div class="mainpanel">
-                <div class="headerbar">
-                    <div class="pageheader" style="display: inline-block;"><h2> Dashboard</h2></div>
 
-                    <div class="header-right">
-                        <ul class="headermenu">
-                            <li>
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default dropdown-toggle btn-height-70" data-toggle="dropdown">
-                                        <img src="images/photos/loggeduser.png" alt="" />
-                                        John Doe
-                                        <span class="caret"></span>
-                                    </button>
-                                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
-                                            <li><a href="profile.html"><i class="glyphicon glyphicon-user"></i>My Profile</a></li>
-                                            <li><a href="#"><i class="glyphicon glyphicon-cog"></i>Account Settings</a></li>
-                                            <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i>Help</a></li>
-                                            <li><a href="login.html"><i class="glyphicon glyphicon-log-out"></i>Log Out</a></li>
-                                        </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div><!-- header-right -->
-                </div><!-- headerbar -->
+                @include('navigation.top_nav', ['title' => 'Dashboard'])
 
                 <div class="contentpanel">
                     <div class="row">                              
@@ -137,8 +116,7 @@
                     <div class="col-sm-6 col-md-4">
                       <div class="panel panel-default">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                          <h4 class="city-name-h4">KOD Platform</h4>
+                          <button type="button" class="btn btn-primary btn-circle btn-xl">KOD Platform</button>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
@@ -148,8 +126,7 @@
                     <div class="col-sm-6 col-md-4">
                       <div class="panel panel-default">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                          <h4 class="city-name-h4">City Living</h4>
+                          <button type="button" class="btn btn-primary btn-circle btn-xl">City Living</button>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
@@ -159,8 +136,7 @@
                     <div class="col-sm-6 col-md-4">
                       <div class="panel panel-default">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                          <h4 class="city-name-h4">Command Center</h4>
+                          <button type="button" class="btn btn-primary btn-circle btn-xl">Command Center</button>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
@@ -170,8 +146,7 @@
                     <div class="col-sm-6 col-md-4 center" >
                       <div class="panel panel-default">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">Status</button>
-                          <h4 class="city-name-h4">Command Center</h4>
+                          <button type="button" class="btn btn-primary btn-circle btn-xl">Social Media</button>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
