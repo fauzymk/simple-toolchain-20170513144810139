@@ -80,10 +80,20 @@
     background-color: rgba(0, 0, 0, 0.35) !important;
     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15) !important;
 }
+.panel-default3 h5 {
+    color: #787878;
+}
+.panel-default3 h3 {
+    color: #968f8f;
+}
 .panel-default2 {
     background-color: white;
     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15) !important;
     padding: 20px 5px;
+}
+.panel-default3 {
+    background-color: rgba(0, 0, 0, 0.56) !important;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15) !important;
 }
 .mainpanel-container {
     padding-left: 240px;

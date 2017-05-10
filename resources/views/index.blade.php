@@ -111,12 +111,19 @@
                           </div><!-- panel -->
                         </div><!-- col-sm-6 -->
                     </div><!-- row -->
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h2 style="color: #2a82c1; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #40719c">Subscribed Services</h2>
+                      </div>
+                    </div>
                 
                   <div class="row">
                     <div class="col-sm-6 col-md-4">
-                      <div class="panel panel-default">
+                      <div class="panel panel-default3">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">KOD Platform</button>
+                          <img src="images/productlogo/1.png" class="img-circle" width="150px">
+                          <h3>City Living</h3>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
@@ -124,9 +131,10 @@
                     </div><!-- col-sm-6 -->
 
                     <div class="col-sm-6 col-md-4">
-                      <div class="panel panel-default">
+                      <div class="panel panel-default3">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">City Living</button>
+                          <img src="images/productlogo/4.png" class="img-circle" width="150px">
+                          <h3>City Request</h3>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
@@ -134,19 +142,21 @@
                     </div><!-- col-sm-6 -->
 
                     <div class="col-sm-6 col-md-4">
-                      <div class="panel panel-default">
+                      <div class="panel panel-default3">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">Command Center</button>
+                          <img src="images/productlogo/2.png" class="img-circle" width="150px">
+                          <h3>Command Center</h3>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
                       </div><!-- panel -->
                     </div><!-- col-sm-6 -->
 
-                    <div class="col-sm-6 col-md-4 center" >
-                      <div class="panel panel-default">
+                    <div class="col-sm-6 col-md-4">
+                      <div class="panel panel-default3">
                         <div class="panel-body" align="center">
-                          <button type="button" class="btn btn-primary btn-circle btn-xl">Social Media</button>
+                          <img src="images/productlogo/5.png" class="img-circle" width="150px">
+                          <h3>Social Media</h3>
                           <h5 class="city-name-h4">Status Remain Usage</h5>
                           <button class="btn btn-primary btn-primary-dashboard">Stop</button>
                         </div><!-- panel-body -->
