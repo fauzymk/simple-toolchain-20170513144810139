@@ -24,10 +24,10 @@
 
                 <div class="contentpanel">
                     <div class="row">                              
-                              <div class="col-xs-12" align="center">
-                                <h1 class="fontcolor-city"> <img src="images/img/bogor.png" style="height: 100px; padding-right: 5px; padding-left: 5px;"> BOGOR</h1>
-                              </div>
-                        <div class="col-sm-6 col-md-3" >
+                        <div class="col-xs-12" align="center">
+                          <h1 class="fontcolor-city"> <img src="images/img/bogor.png" style="height: 100px; padding-right: 5px; padding-left: 5px;"> {{ strtoupper($data[0]->city_name) }}</h1>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
                           <div class="panel panel-danger panel-stat" >
                             <div class="panel-heading" >
                               
@@ -38,7 +38,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label"> City Type</small>
-                                    <h2 class="fontcolor">Medium</h2>
+                                    <h2 class="fontcolor">{{ $data[0]->city_type }}</h2>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -59,7 +59,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label"> Package</small>
-                                    <h3 class="fontcolor">Based</h3>
+                                    <h3 class="fontcolor">{{ $data[0]->package_type }}</h3>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -80,7 +80,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label">Account Status</small>
-                                    <h2 class="fontcolor">Active</h2>
+                                    <h2 class="fontcolor">{{ $data[0]->account_status }}</h2>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -101,7 +101,7 @@
                                   </div>
                                   <div class="col-xs-8" align="center">
                                     <small class="stat-label">Usage</small>
-                                    <h2 class="fontcolor">80%</h2>
+                                    <h2 class="fontcolor">{{ $data[0]->overall_usage }}%</h2>
                                   </div>
                                 </div><!-- row -->
                                 
@@ -114,7 +114,7 @@
 
                     <div class="row">
                       <div class="col-md-12">
-                        <h2 style="color: #2a82c1; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #40719c">Subscribed Services</h2>
+                        <h2 style="color: #a9a9a9; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #40719c">Subscribed Services</h2>
                       </div>
                     </div>
                 

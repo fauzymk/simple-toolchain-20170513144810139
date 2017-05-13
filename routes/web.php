@@ -26,6 +26,8 @@ Route::get('/login', 'LoginController@index');
 
 Route::get('/order', 'OrderController@order');
 
+Route::post('/doOrder', 'OrderController@postOrder');
+
 Route::get('/order_history', 'OrderController@orderHistory');
 
 Route::get('/product', 'ProductController@index');

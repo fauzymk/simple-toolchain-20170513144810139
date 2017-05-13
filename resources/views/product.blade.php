@@ -24,7 +24,7 @@
                     <div class="panel panel-default">
                            <div class="col-md-5 panel-body">
                             <div class="table-responsive">
-                            <table class="table table-hidaction table-hover mb30">
+                            <table class="table table-hidaction table-hover mb30" id="table_product">
                               <thead>
                                 <tr>
                                   <th>Product & Service Category</th>
@@ -584,7 +584,7 @@
     "use strict";
     
     jQuery('#table1').dataTable();
-    
+
     jQuery('#table2').dataTable();
     
     // Select2

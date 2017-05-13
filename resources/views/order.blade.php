@@ -23,7 +23,8 @@
 
                 <div class="contentpanel">
                     <div class="col-md-12">
-                    <form class="form-horizontal" action="product.html">
+                    <form class="form-horizontal" action="doOrder" method="POST">
+                      <input type="hidden" name="_token" value="{{ csrf_token() }}">
                       <div class="panel panel-default">
 
                         <div class="panel-heading" align="center" >
@@ -44,46 +45,46 @@
                                     <div class="form-group">
                                       <label for="appname" class="col-md-4 control-label">Application Name</label>
                                       <div class="col-md-8">
-                                        <input type="text" name="appname" placeholder="Citizen Request" class="form-control" disabled>
+                                        <input type="text" name="appname" value="Citizen Request" class="form-control" readonly>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="storage" class="col-md-4 control-label">Storage</label>
                                       <div class="col-md-8">
-                                        <input type="text" name="storage" value="100 MB" class="form-control" disabled>
+                                        <input type="text" name="storage" value="100 MB" class="form-control" readonly>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="subsplan" class="col-md-4 control-label">Subscription Plan</label>
                                       <div class="col-md-8">
-                                        <select class="form-control">
-                                          <option>Monthly</option>
-                                          <option>Annually</option>
+                                        <select name="subsplan" class="form-control">
+                                          <option value="Monthly">Monthly</option>
+                                          <option value="Annually">Annually</option>
                                         </select>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="autorenew" class="col-md-4 control-label">Auto Renewal</label>
                                       <div class="col-md-8">
-                                        <select class="form-control">
-                                          <option>Yes</option>
-                                          <option>No</option>
+                                        <select name="autorenew" class="form-control">
+                                          <option value="true">Yes</option>
+                                          <option value="false">No</option>
                                         </select>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="poperiod" class="col-md-4 control-label">PO Period</label>
                                       <div class="col-md-8">
-                                        <select class="form-control">
-                                          <option>Monthly</option>
-                                          <option>Annually</option>
+                                        <select name="poperiod" class="form-control">
+                                          <option value="Monthly">Monthly</option>
+                                          <option value="Annually">Annually</option>
                                         </select>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="effectivedate" class="col-md-4 control-label">Effective Date</label>
                                       <div class="col-md-8">
-                                        <input type="text" name="effectivedate" value="26/4/2017" class="form-control" disabled>
+                                        <input type="text" name="effectivedate" value="{{ $date }}" class="form-control" readonly>
                                       </div>
                                     </div>
                                     <div class="form-group">
@@ -99,7 +100,7 @@
                                     <div class="form-group">
                                       <label for="notes" class="col-md-4 control-label">Notes</label>
                                       <div class="col-md-8">
-                                        <textarea class="form-control" rows="5"></textarea>
+                                        <textarea name="notes" class="form-control" rows="5"></textarea>
                                       </div>
                                     </div>
                                   </div>
@@ -127,19 +128,19 @@
                                     <div class="form-group">
                                       <label for="address" class="col-md-4 control-label">Address</label>
                                       <div class="col-md-8">
-                                        <textarea class="form-control" rows="3"></textarea>
+                                        <textarea name="contact_address" class="form-control" rows="3"></textarea>
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="name" class="col-md-4 control-label">Contact Name</label>
                                       <div class="col-md-8">
-                                        <input type="text" name="name" class="form-control">
+                                        <input type="text" name="contact_name" class="form-control">
                                       </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="telp" class="col-md-4 control-label">Telephone Number</label>
                                       <div class="col-md-8">
-                                        <input type="text" name="telp" class="form-control">
+                                        <input type="text" name="contact_telp" class="form-control">
                                       </div>
                                     </div>
                                     <div class="form-group">
@@ -153,7 +154,7 @@
                                     </div>
                                   </div>
                                   <div class="form-group text-center">
-                                    <a class="btn btn-lightblue btn-lg" href="">Subscribe</a>
+                                    <button type="submit" class="btn btn-lightblue btn-lg" href="">Subscribe</button>
                                   </div>
                                 </div>
                               </div>

@@ -616,15 +616,15 @@ h4, .h4 {
 }
 
 .panel-success .panel-heading {
-   background-color: #1dc420 !important;
+   background-color: #1dc420;
 }
 
 .panel-warning .panel-heading {
-   background-color: #93a000 !important;
+   background-color: #93a000;
 }
 
 .panel-danger .panel-heading {
-   background-color: #00a07f !important;
+   background-color: #00a07f;
 }
 
 .panel-info .panel-heading {
@@ -632,7 +632,7 @@ h4, .h4 {
 }
 
 .panel-dark .panel-heading {
-   background-color: #0088a0 !important;
+   background-color: #0088a0;
 }
 
 .panel-prd .panel-heading {

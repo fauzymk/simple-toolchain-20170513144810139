@@ -319,7 +319,10 @@
           
           "use strict";
           
-          jQuery('#table1').dataTable();
+          var table = $('#table1').DataTable();
+          $('#table1 tbody tr').click(function () {
+              console.log(table.row(this).data());
+          });
           
           jQuery('#table2').dataTable({
           });
